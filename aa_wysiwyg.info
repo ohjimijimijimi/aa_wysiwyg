@@ -1,0 +1,13 @@
+name = AliceAnselmi WYSIWYG
+description = Text format and WYSIWYG profile
+core = 7.x
+package = AA (Features)
+version = 7.x-1.0
+project = aa_wysiwyg
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = wysiwyg
+dependencies[] = wysiwyg_filter
+features[features_api][] = api:2
+features[filter][] = filtered_html
+features[wysiwyg][] = filtered_html
